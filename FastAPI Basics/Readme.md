@@ -84,4 +84,27 @@ The key part of a GET request are:
 Check out the [Params.py] for **GET Operation** examples.
 
 
-## Post Operations
+## Post Operations:
+
+1. Post Operation is use to create new objects
+
+2. Parameters are sent via query string as well as request body.
+
+### HTTP Request Body:
+
+1. Data set after HTTP Request header.
+
+2. Header specifies body encoding.
+
+3. Supports nested data structures.
+
+4. JSON and XM are most common encoding for APIS.
+
+5. JSON is FastAPI defauly encoding.
+
+### Using Pydantic BaseModel
+
+Pydantic : interface to define request model response body schemas.
+
+
+Thats it for this section.
