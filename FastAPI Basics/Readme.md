@@ -55,3 +55,33 @@ In the terminal run the following command:
 ```
 fastapi run dev main.py
 ```
+To stop the running of the file , use `ctrl+c` on the keyboard.
+
+
+## GET Operations:
+
+Http protocol-several types of operations.
+
+1. GET is the most common
+
+Example : `https://www.google.com:80/search?q=fastapi`
+
+The key part of a GET request are:
+
+1. Host ,eg:`www.google.com` 
+    - specifies the main loadbalancer
+
+2. Port , eg:`80`(default)
+    - specifies the port number to access the application
+  
+3. Path , eg:`/search`
+    - specifies the service that we need to use.
+
+
+4. Query string, eg:`?q=fastapi`
+    - specifies the query string
+
+Check out the [Params.py] for **GET Operation** examples.
+
+
+## Post Operations
